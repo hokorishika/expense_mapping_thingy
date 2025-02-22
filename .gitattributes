@@ -1,0 +1,5 @@
+# line endings normalization
+* text=auto
+
+.py text
+.md text

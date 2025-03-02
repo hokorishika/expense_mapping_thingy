@@ -116,7 +116,7 @@ def single(eventdate):
     def single_rule(start):
         nonlocal eventdate
 
-        if eventdate > start:
+        if eventdate >= start:
             yield eventdate
 
     return single_rule

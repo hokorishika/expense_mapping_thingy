@@ -112,11 +112,11 @@ def weekends():
     return weekends_rule
 
 
-def single(eventdate):
-    def single_rule(start):
+def once(eventdate):
+    def once_rule(start):
         nonlocal eventdate
 
         if eventdate >= start:
             yield eventdate
 
-    return single_rule
+    return once_rule
